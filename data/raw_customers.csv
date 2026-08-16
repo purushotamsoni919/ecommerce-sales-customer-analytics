@@ -1,0 +1,201 @@
+customer_id,customer_name,city,state,segment,signup_date
+CUST-1001,Priya Sharma,Ahmedabad,Gujarat,Consumer,2025-05-06
+CUST-1002,Sneha Patel,Delhi,Delhi,Home Office,2025-12-13
+CUST-1003,Tanvi Verma,Kolkata,West Bengal,Corporate,2025-01-17
+CUST-1004,Aarav Verma,Hyderabad,Telangana,Corporate,2025-04-30
+CUST-1005,Nikhil Joshi,Mumbai,Maharashtra,Consumer,2025-10-15
+CUST-1006,Rahul Reddy,Kolkata,West Bengal,Consumer,2025-04-23
+CUST-1007,Aditya Joshi,Ahmedabad,Gujarat,Consumer,2025-01-04
+CUST-1008,Neha Deshmukh,Chennai,Tamil Nadu,Home Office,2025-05-23
+CUST-1009,Vikram Rao,Chennai,Tamil Nadu,Corporate,2025-02-22
+CUST-1010,Rohan Deshmukh,Delhi,Delhi,Corporate,2025-07-03
+CUST-1011,Divya Joshi,Ahmedabad,Gujarat,Consumer,2025-01-23
+CUST-1012,Aditya Reddy,Delhi,Delhi,Home Office,2025-07-13
+CUST-1013,Rohan Reddy,Ahmedabad,Gujarat,Corporate,2025-11-18
+CUST-1014,Isha Nair,Hyderabad,Telangana,Consumer,2025-12-27
+CUST-1015,Rohan Sharma,Hyderabad,Telangana,Consumer,2025-05-29
+CUST-1016,Rohan Rao,Delhi,Delhi,Consumer,2025-07-14
+CUST-1017,Karan Chowdhury,Chennai,Tamil Nadu,Consumer,2025-03-25
+CUST-1018,Divya Nair,Hyderabad,Telangana,Consumer,2025-12-10
+CUST-1019,Karan Verma,Bengaluru,Karnataka,Consumer,2025-10-01
+CUST-1020,Sneha Patel,Pune,Maharashtra,Consumer,2025-07-14
+CUST-1021,Karan Reddy,Hyderabad,Telangana,Corporate,2025-12-17
+CUST-1022,Amit Sharma,Hyderabad,Telangana,Consumer,2025-01-17
+CUST-1023,Amit Deshmukh,Ahmedabad,Gujarat,Consumer,2025-02-03
+CUST-1024,Rahul Joshi,Chennai,Tamil Nadu,Consumer,2025-04-19
+CUST-1025,Riya Deshmukh,Pune,Maharashtra,Consumer,2025-03-15
+CUST-1026,Karan Patel,Hyderabad,Telangana,Corporate,2025-10-15
+CUST-1027,Tanvi Gupta,Kolkata,West Bengal,Consumer,2025-10-26
+CUST-1028,Siddharth Nair,Hyderabad,Telangana,Consumer,2025-03-12
+CUST-1029,Nikhil Chowdhury,Delhi,Delhi,Corporate,2025-01-25
+CUST-1030,Priya Patel,Bengaluru,Karnataka,Consumer,2025-12-15
+CUST-1031,Meera Joshi,Delhi,Delhi,Corporate,2025-07-17
+CUST-1032,Siddharth Joshi,Pune,Maharashtra,Consumer,2025-09-28
+CUST-1033,Karan Reddy,Mumbai,Maharashtra,Consumer,2025-12-15
+CUST-1034,Priya Reddy,Ahmedabad,Gujarat,Home Office,2025-11-25
+CUST-1035,Amit Verma,Ahmedabad,Gujarat,Home Office,2025-08-11
+CUST-1036,Neha Chowdhury,Mumbai,Maharashtra,Corporate,2025-05-15
+CUST-1037,Nikhil Patel,Delhi,Delhi,Consumer,2025-11-17
+CUST-1038,Pooja Reddy,Hyderabad,Telangana,Consumer,2025-03-20
+CUST-1039,Divya Patel,Mumbai,Maharashtra,Corporate,2025-11-03
+CUST-1040,Amit Chowdhury,Mumbai,Maharashtra,Consumer,2025-02-27
+CUST-1041,Divya Gupta,Hyderabad,Telangana,Consumer,2025-01-30
+CUST-1042,Sneha Joshi,Delhi,Delhi,Consumer,2025-02-13
+CUST-1043,Riya Verma,Bengaluru,Karnataka,Consumer,2025-03-07
+CUST-1044,Riya Reddy,Bengaluru,Karnataka,Home Office,2025-05-16
+CUST-1045,Nikhil Joshi,Kolkata,West Bengal,Consumer,2025-04-19
+CUST-1046,Tanvi Rao,Ahmedabad,Gujarat,Corporate,2025-07-24
+CUST-1047,Divya Chowdhury,Pune,Maharashtra,Consumer,2025-03-03
+CUST-1048,Sneha Rao,Delhi,Delhi,Consumer,2025-06-23
+CUST-1049,Aarav Joshi,Hyderabad,Telangana,Consumer,2025-10-29
+CUST-1050,Sneha Sharma,Delhi,Delhi,Consumer,2025-12-29
+CUST-1051,Ananya Rao,Delhi,Delhi,Home Office,2025-01-17
+CUST-1052,Amit Verma,Hyderabad,Telangana,Corporate,2025-05-23
+CUST-1053,Riya Rao,Bengaluru,Karnataka,Home Office,2025-10-20
+CUST-1054,Varun Chowdhury,Hyderabad,Telangana,Home Office,2025-08-31
+CUST-1055,Meera Rao,Delhi,Delhi,Corporate,2025-02-19
+CUST-1056,Meera Nair,Kolkata,West Bengal,Home Office,2025-07-30
+CUST-1057,Aditya Sharma,Delhi,Delhi,Consumer,2025-02-01
+CUST-1058,Siddharth Nair,Delhi,Delhi,Consumer,2025-05-08
+CUST-1059,Rahul Rao,Pune,Maharashtra,Consumer,2025-03-13
+CUST-1060,Meera Patel,Ahmedabad,Gujarat,Consumer,2025-08-25
+CUST-1061,Sneha Verma,Pune,Maharashtra,Consumer,2025-10-09
+CUST-1062,Priya Sharma,Mumbai,Maharashtra,Consumer,2025-02-17
+CUST-1063,Sneha Patel,Kolkata,West Bengal,Corporate,2025-09-06
+CUST-1064,Riya Rao,Kolkata,West Bengal,Consumer,2025-01-31
+CUST-1065,Neha Deshmukh,Mumbai,Maharashtra,Consumer,2025-07-19
+CUST-1066,Karan Chowdhury,Ahmedabad,Gujarat,Consumer,2025-08-05
+CUST-1067,Tanvi Chowdhury,Bengaluru,Karnataka,Consumer,2025-04-08
+CUST-1068,Pooja Rao,Mumbai,Maharashtra,Corporate,2025-10-24
+CUST-1069,Tanvi Sharma,Chennai,Tamil Nadu,Consumer,2025-01-30
+CUST-1070,Ananya Joshi,Pune,Maharashtra,Home Office,2025-09-15
+CUST-1071,Nikhil Patel,Mumbai,Maharashtra,Corporate,2025-09-18
+CUST-1072,Rohan Patel,Delhi,Delhi,Consumer,2025-11-01
+CUST-1073,Rohan Rao,Kolkata,West Bengal,Consumer,2025-03-03
+CUST-1074,Varun Rao,Mumbai,Maharashtra,Corporate,2025-11-14
+CUST-1075,Rohan Deshmukh,Chennai,Tamil Nadu,Corporate,2025-05-14
+CUST-1076,Rahul Nair,Hyderabad,Telangana,Corporate,2025-05-16
+CUST-1077,Siddharth Patel,Ahmedabad,Gujarat,Corporate,2025-08-23
+CUST-1078,Amit Verma,Mumbai,Maharashtra,Consumer,2025-08-23
+CUST-1079,Isha Joshi,Delhi,Delhi,Consumer,2025-02-07
+CUST-1080,Tanvi Rao,Ahmedabad,Gujarat,Consumer,2025-03-09
+CUST-1081,Divya Verma,Hyderabad,Telangana,Home Office,2025-07-09
+CUST-1082,Pooja Patel,Pune,Maharashtra,Corporate,2025-10-06
+CUST-1083,Pooja Joshi,Mumbai,Maharashtra,Consumer,2025-12-08
+CUST-1084,Tanvi Gupta,Delhi,Delhi,Consumer,2025-03-10
+CUST-1085,Karan Verma,Delhi,Delhi,Consumer,2025-10-11
+CUST-1086,Vikram Gupta,Ahmedabad,Gujarat,Consumer,2025-11-06
+CUST-1087,Rahul Nair,Hyderabad,Telangana,Corporate,2025-12-18
+CUST-1088,Karan Reddy,Pune,Maharashtra,Corporate,2025-05-09
+CUST-1089,Ananya Verma,Kolkata,West Bengal,Home Office,2025-05-22
+CUST-1090,Ananya Sharma,Chennai,Tamil Nadu,Consumer,2025-03-08
+CUST-1091,Karan Patel,Pune,Maharashtra,Consumer,2025-10-10
+CUST-1092,Meera Reddy,Mumbai,Maharashtra,Corporate,2025-02-27
+CUST-1093,Rohan Patel,Mumbai,Maharashtra,Corporate,2025-07-09
+CUST-1094,Varun Reddy,Bengaluru,Karnataka,Corporate,2025-08-09
+CUST-1095,Vikram Sharma,Ahmedabad,Gujarat,Corporate,2025-07-06
+CUST-1096,Ananya Nair,Hyderabad,Telangana,Consumer,2025-12-16
+CUST-1097,Sneha Verma,Chennai,Tamil Nadu,Consumer,2025-10-14
+CUST-1098,Meera Joshi,Bengaluru,Karnataka,Consumer,2025-05-02
+CUST-1099,Neha Patel,Kolkata,West Bengal,Consumer,2025-01-13
+CUST-1100,Neha Nair,Kolkata,West Bengal,Consumer,2025-12-09
+CUST-1101,Sneha Gupta,Bengaluru,Karnataka,Consumer,2025-12-26
+CUST-1102,Priya Deshmukh,Mumbai,Maharashtra,Corporate,2025-08-29
+CUST-1103,Sneha Rao,Pune,Maharashtra,Consumer,2025-06-29
+CUST-1104,Pooja Rao,Hyderabad,Telangana,Consumer,2025-01-13
+CUST-1105,Rahul Deshmukh,Chennai,Tamil Nadu,Home Office,2025-05-23
+CUST-1106,Rohan Gupta,Chennai,Tamil Nadu,Consumer,2025-11-25
+CUST-1107,Nikhil Deshmukh,Chennai,Tamil Nadu,Consumer,2025-01-15
+CUST-1108,Priya Gupta,Bengaluru,Karnataka,Corporate,2025-10-25
+CUST-1109,Karan Sharma,Delhi,Delhi,Consumer,2025-11-02
+CUST-1110,Meera Nair,Chennai,Tamil Nadu,Consumer,2025-08-12
+CUST-1111,Isha Reddy,Delhi,Delhi,Consumer,2025-07-17
+CUST-1112,Varun Rao,Ahmedabad,Gujarat,Consumer,2025-01-23
+CUST-1113,Meera Sharma,Hyderabad,Telangana,Home Office,2025-07-06
+CUST-1114,Meera Verma,Chennai,Tamil Nadu,Corporate,2025-11-16
+CUST-1115,Amit Verma,Ahmedabad,Gujarat,Corporate,2025-09-17
+CUST-1116,Pooja Deshmukh,Chennai,Tamil Nadu,Home Office,2025-07-26
+CUST-1117,Pooja Reddy,Bengaluru,Karnataka,Corporate,2025-04-09
+CUST-1118,Meera Deshmukh,Bengaluru,Karnataka,Consumer,2025-11-12
+CUST-1119,Varun Gupta,Kolkata,West Bengal,Home Office,2025-10-08
+CUST-1120,Aarav Gupta,Ahmedabad,Gujarat,Consumer,2025-04-18
+CUST-1121,Meera Joshi,Chennai,Tamil Nadu,Corporate,2025-08-27
+CUST-1122,Aditya Chowdhury,Hyderabad,Telangana,Home Office,2025-09-19
+CUST-1123,Riya Patel,Delhi,Delhi,Consumer,2025-05-26
+CUST-1124,Nikhil Joshi,Chennai,Tamil Nadu,Consumer,2025-02-17
+CUST-1125,Sneha Gupta,Hyderabad,Telangana,Consumer,2025-04-12
+CUST-1126,Vikram Sharma,Mumbai,Maharashtra,Consumer,2025-05-06
+CUST-1127,Riya Joshi,Delhi,Delhi,Corporate,2025-08-22
+CUST-1128,Meera Joshi,Hyderabad,Telangana,Home Office,2025-12-23
+CUST-1129,Siddharth Chowdhury,Kolkata,West Bengal,Consumer,2025-05-05
+CUST-1130,Vikram Sharma,Delhi,Delhi,Consumer,2025-08-06
+CUST-1131,Sneha Patel,Pune,Maharashtra,Consumer,2025-01-26
+CUST-1132,Tanvi Rao,Delhi,Delhi,Consumer,2025-08-22
+CUST-1133,Vikram Chowdhury,Chennai,Tamil Nadu,Consumer,2025-08-15
+CUST-1134,Isha Reddy,Kolkata,West Bengal,Consumer,2025-10-08
+CUST-1135,Aditya Patel,Pune,Maharashtra,Home Office,2025-08-19
+CUST-1136,Karan Rao,Ahmedabad,Gujarat,Consumer,2025-09-24
+CUST-1137,Riya Rao,Ahmedabad,Gujarat,Consumer,2025-08-14
+CUST-1138,Rohan Gupta,Hyderabad,Telangana,Corporate,2025-05-20
+CUST-1139,Amit Nair,Delhi,Delhi,Consumer,2025-03-12
+CUST-1140,Vikram Rao,Kolkata,West Bengal,Home Office,2025-12-22
+CUST-1141,Vikram Rao,Delhi,Delhi,Home Office,2025-08-01
+CUST-1142,Meera Nair,Pune,Maharashtra,Consumer,2025-08-01
+CUST-1143,Ananya Rao,Kolkata,West Bengal,Consumer,2025-07-19
+CUST-1144,Varun Sharma,Kolkata,West Bengal,Consumer,2025-09-02
+CUST-1145,Aarav Nair,Ahmedabad,Gujarat,Consumer,2025-07-19
+CUST-1146,Meera Reddy,Hyderabad,Telangana,Consumer,2025-09-07
+CUST-1147,Sneha Gupta,Kolkata,West Bengal,Corporate,2025-09-06
+CUST-1148,Aarav Deshmukh,Chennai,Tamil Nadu,Consumer,2025-12-09
+CUST-1149,Siddharth Patel,Pune,Maharashtra,Consumer,2025-03-07
+CUST-1150,Isha Reddy,Mumbai,Maharashtra,Consumer,2025-07-21
+CUST-1151,Varun Joshi,Mumbai,Maharashtra,Home Office,2025-02-12
+CUST-1152,Meera Patel,Pune,Maharashtra,Consumer,2025-04-04
+CUST-1153,Ananya Gupta,Kolkata,West Bengal,Consumer,2025-06-17
+CUST-1154,Rahul Chowdhury,Chennai,Tamil Nadu,Consumer,2025-06-22
+CUST-1155,Siddharth Gupta,Kolkata,West Bengal,Home Office,2025-05-10
+CUST-1156,Rohan Chowdhury,Mumbai,Maharashtra,Consumer,2025-10-04
+CUST-1157,Ananya Nair,Hyderabad,Telangana,Corporate,2025-11-29
+CUST-1158,Rohan Sharma,Mumbai,Maharashtra,Corporate,2025-05-07
+CUST-1159,Rahul Sharma,Bengaluru,Karnataka,Consumer,2025-05-03
+CUST-1160,Vikram Chowdhury,Delhi,Delhi,Corporate,2025-10-16
+CUST-1161,Rahul Chowdhury,Ahmedabad,Gujarat,Consumer,2025-07-08
+CUST-1162,Neha Joshi,Delhi,Delhi,Corporate,2025-03-25
+CUST-1163,Pooja Verma,Mumbai,Maharashtra,Corporate,2025-06-09
+CUST-1164,Varun Deshmukh,Kolkata,West Bengal,Consumer,2025-04-12
+CUST-1165,Rohan Joshi,Hyderabad,Telangana,Consumer,2025-02-22
+CUST-1166,Pooja Joshi,Delhi,Delhi,Corporate,2025-10-17
+CUST-1167,Ananya Nair,Kolkata,West Bengal,Consumer,2025-12-05
+CUST-1168,Divya Verma,Chennai,Tamil Nadu,Consumer,2025-01-07
+CUST-1169,Meera Chowdhury,Delhi,Delhi,Consumer,2025-08-10
+CUST-1170,Divya Chowdhury,Bengaluru,Karnataka,Corporate,2025-08-11
+CUST-1171,Neha Reddy,Ahmedabad,Gujarat,Corporate,2025-11-12
+CUST-1172,Tanvi Chowdhury,Pune,Maharashtra,Consumer,2025-08-12
+CUST-1173,Varun Gupta,Chennai,Tamil Nadu,Consumer,2025-05-06
+CUST-1174,Rohan Gupta,Pune,Maharashtra,Consumer,2025-05-05
+CUST-1175,Aditya Joshi,Kolkata,West Bengal,Corporate,2025-06-22
+CUST-1176,Aarav Chowdhury,Chennai,Tamil Nadu,Consumer,2025-04-04
+CUST-1177,Riya Rao,Chennai,Tamil Nadu,Corporate,2025-05-13
+CUST-1178,Amit Gupta,Ahmedabad,Gujarat,Consumer,2025-10-12
+CUST-1179,Aarav Reddy,Hyderabad,Telangana,Home Office,2025-02-13
+CUST-1180,Sneha Deshmukh,Pune,Maharashtra,Consumer,2025-10-12
+CUST-1181,Sneha Chowdhury,Pune,Maharashtra,Consumer,2025-08-18
+CUST-1182,Aarav Verma,Ahmedabad,Gujarat,Consumer,2025-04-24
+CUST-1183,Siddharth Rao,Ahmedabad,Gujarat,Home Office,2025-12-06
+CUST-1184,Varun Nair,Pune,Maharashtra,Home Office,2025-10-11
+CUST-1185,Nikhil Nair,Kolkata,West Bengal,Consumer,2025-10-09
+CUST-1186,Amit Nair,Pune,Maharashtra,Corporate,2025-05-19
+CUST-1187,Pooja Gupta,Hyderabad,Telangana,Corporate,2025-03-03
+CUST-1188,Rahul Nair,Delhi,Delhi,Corporate,2025-10-02
+CUST-1189,Neha Rao,Hyderabad,Telangana,Consumer,2025-09-05
+CUST-1190,Karan Joshi,Ahmedabad,Gujarat,Consumer,2025-02-21
+CUST-1191,Rahul Gupta,Hyderabad,Telangana,Consumer,2025-07-04
+CUST-1192,Neha Gupta,Mumbai,Maharashtra,Home Office,2025-12-29
+CUST-1193,Tanvi Patel,Ahmedabad,Gujarat,Home Office,2025-01-24
+CUST-1194,Ananya Reddy,Ahmedabad,Gujarat,Corporate,2025-12-24
+CUST-1195,Vikram Chowdhury,Delhi,Delhi,Consumer,2025-01-07
+CUST-1196,Varun Gupta,Pune,Maharashtra,Consumer,2025-09-03
+CUST-1197,Aditya Nair,Bengaluru,Karnataka,Corporate,2025-01-27
+CUST-1198,Karan Chowdhury,Delhi,Delhi,Home Office,2025-02-03
+CUST-1199,Siddharth Chowdhury,Delhi,Delhi,Home Office,2025-10-23
+CUST-1200,Ananya Patel,Bengaluru,Karnataka,Corporate,2025-10-16

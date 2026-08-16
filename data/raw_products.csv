@@ -1,0 +1,11 @@
+product_id,product_name,category,unit_price,cost_price
+PROD-101,Wireless Noise-Canceling Headphones,Electronics,149.99,85.0
+PROD-102,Ergonomic Mechanical Keyboard,Electronics,89.5,45.0
+PROD-103,UltraWide Gaming Monitor 27-inch,Electronics,329.0,210.0
+PROD-104,Precision Optical Wireless Mouse,Electronics,39.99,18.0
+PROD-105,Adjustable Aluminium Laptop Stand,Accessories,45.0,20.0
+PROD-106,USB-C Multi-Port Hub,Accessories,29.99,12.5
+PROD-107,Smart Fitness Tracker Band,Wearables,59.9,28.0
+PROD-108,HD Webcam with Dual Microphone,Electronics,64.99,30.0
+PROD-109,Leather Executive Desk Mat,Office,24.5,9.0
+PROD-110,Ergonomic Mesh Office Chair,Office,199.0,110.0
