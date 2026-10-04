@@ -35,10 +35,10 @@ The project demonstrates a full data analytics workflow:
 
 ```mermaid
 flowchart TD
-    A[Raw E-Commerce Orders & Customers Data<br/>1,200 Orders • 200 Customers • 10 SKUs] --> B[1. MySQL 8.0 Relational Engine<br/>Star Schema DDL, Analytical Aggregations,<br/>RFM Segmentation & Delivery Analysis]
-    A --> C[2. Python ETL Pipeline<br/>Data Ingestion, Cleansing, Validation,<br/>EDA Visualizations with Seaborn & Matplotlib]
-    B --> D[3. Power BI & Web BI<br/>Live Interactive Dashboard on GitHub Pages,<br/>DAX Measures Library & Modern Soft-Blue Theme]
-    B --> E[4. Excel Executive Suite<br/>Automated OpenPyXL Multi-tab Workbook,<br/>KPI Cards & Regional Breakdown Reports]
+    A["Raw E-Commerce Orders & Customers Data<br/>1,200 Orders • 200 Customers • 10 SKUs"] --> B["1. MySQL 8.0 Relational Engine<br/>Star Schema DDL, Analytical Aggregations,<br/>RFM Segmentation & Delivery Analysis"]
+    A --> C["2. Python ETL Pipeline<br/>Data Ingestion, Cleansing, Validation,<br/>EDA Visualizations with Seaborn & Matplotlib"]
+    B --> D["3. Power BI & Web BI<br/>Live Interactive Dashboard on GitHub Pages,<br/>DAX Measures Library & Modern Soft-Blue Theme"]
+    B --> E["4. Excel Executive Suite<br/>Automated OpenPyXL Multi-tab Workbook,<br/>KPI Cards & Regional Breakdown Reports"]
 ```
 
 | Tool | Focus Area | Key Deliverables |
