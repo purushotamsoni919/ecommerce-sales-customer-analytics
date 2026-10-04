@@ -35,8 +35,14 @@ Data_Analytics_Project_Ecommerce/
 ├── images/                           # Generated EDA Visualizations
 │   ├── monthly_sales_trend.png
 │   └── revenue_by_category.png
-├── powerbi/                          # Power BI Integration
-│   └── PowerBI_Setup_Guide.md
+├── powerbi/                          # Power BI Integration & Modern Dashboards
+│   ├── TechTrend_Executive_Dashboard.html # Interactive Executive Web Dashboard
+│   ├── Modern_Meta_Dashboard_Theme.json  # Power BI Modern Soft-Blue Theme
+│   ├── Dashboard_Design_Guide.md         # Canvas Layout & Visual Blueprint
+│   ├── DAX_Measures.dax                  # 15+ Core DAX KPI Formulas
+│   ├── Ecommerce_MySQL_Connection.pbids  # 1-Click MySQL Data Source
+│   ├── Ecommerce_Excel_Connection.pbids  # 1-Click Excel Data Source
+│   └── PowerBI_Setup_Guide.md            # Complete Setup & Insights Guide
 └── README.md
 ```
 

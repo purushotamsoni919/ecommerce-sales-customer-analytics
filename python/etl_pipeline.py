@@ -14,7 +14,7 @@ DB_USER = "root"
 DB_PASS = "Root@12345"
 ENCODED_PASS = urllib.parse.quote_plus(DB_PASS)
 DB_NAME = "ecommerce_analytics"
-PROJECT_DIR = r"C:\Users\Purushottam\Data_Analytics_Project_Ecommerce"
+PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(PROJECT_DIR, "data")
 EXCEL_PATH = os.path.join(PROJECT_DIR, "excel", "Ecommerce_Sales_Analytics_Report.xlsx")
 
@@ -106,14 +106,18 @@ def run_analytical_queries():
     df_monthly = pd.read_sql(monthly_sql, con=engine)
     df_prod = pd.read_sql(prod_sql, con=engine)
     df_region = pd.read_sql(region_sql, con=engine)
-    df_raw = pd.read_sql("SELECT * FROM orders LIMIT 100;", con=engine)
+    df_orders = pd.read_sql("SELECT * FROM orders;", con=engine)
+    df_customers = pd.read_sql("SELECT * FROM customers;", con=engine)
+    df_products = pd.read_sql("SELECT * FROM products;", con=engine)
     
     return {
         "Executive Summary": df_kpi,
         "Monthly Trend": df_monthly,
         "Product Performance": df_prod,
         "Regional Breakdown": df_region,
-        "Sample Orders": df_raw
+        "orders": df_orders,
+        "customers": df_customers,
+        "products": df_products
     }
 
 def export_formatted_excel(data_dict):

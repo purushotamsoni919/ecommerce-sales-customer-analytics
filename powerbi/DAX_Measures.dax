@@ -1,0 +1,104 @@
+// ==============================================================================
+// 📊 TECHTREND RETAIL - POWER BI DAX MEASURES LIBRARY
+// ==============================================================================
+// Create a blank table called "Key Measures" in Power BI Desktop (Home -> Enter Data)
+// and paste these DAX measures into your model.
+// ==============================================================================
+
+// --- 1. CORE REVENUE & VOLUME KPIS ---
+
+Total Revenue = 
+SUM(orders[total_revenue])
+
+Total Profit = 
+SUM(orders[profit])
+
+Total Orders = 
+DISTINCTCOUNT(orders[order_id])
+
+Total Units Sold = 
+SUM(orders[quantity])
+
+Average Order Value (AOV) = 
+DIVIDE([Total Revenue], [Total Orders], 0)
+
+Profit Margin % = 
+DIVIDE([Total Profit], [Total Revenue], 0)
+
+
+// --- 2. ORDER FULFILLMENT & REALIZED BUSINESS ---
+
+Delivered Revenue = 
+CALCULATE([Total Revenue], orders[order_status] = "Delivered")
+
+Delivered Profit = 
+CALCULATE([Total Profit], orders[order_status] = "Delivered")
+
+Realized Profit Margin % = 
+DIVIDE([Delivered Profit], [Delivered Revenue], 0)
+
+Delivered Orders = 
+CALCULATE([Total Orders], orders[order_status] = "Delivered")
+
+Fulfillment Success Rate % = 
+DIVIDE([Delivered Orders], [Total Orders], 0)
+
+
+// --- 3. RISK, CANCELLATION & RETURN METRICS ---
+
+Cancelled Orders = 
+CALCULATE([Total Orders], orders[order_status] = "Cancelled")
+
+Cancellation Rate % = 
+DIVIDE([Cancelled Orders], [Total Orders], 0)
+
+Returned Orders = 
+CALCULATE([Total Orders], orders[order_status] = "Returned")
+
+Return Rate % = 
+DIVIDE([Returned Orders], [Total Orders], 0)
+
+Fulfillment Revenue Loss = 
+CALCULATE([Total Revenue], orders[order_status] IN { "Cancelled", "Returned" })
+
+Lost Revenue Rate % = 
+DIVIDE([Fulfillment Revenue Loss], [Total Revenue], 0)
+
+
+// --- 4. CUSTOMER METRICS ---
+
+Total Customers = 
+DISTINCTCOUNT(customers[customer_id])
+
+Revenue Per Customer = 
+DIVIDE([Total Revenue], [Total Customers], 0)
+
+Orders Per Customer = 
+DIVIDE([Total Orders], [Total Customers], 0)
+
+
+// --- 5. TIME INTELLIGENCE & GROWTH ---
+
+Previous Month Revenue = 
+CALCULATE([Total Revenue], DATEADD('Calendar'[Date], -1, MONTH))
+
+MoM Revenue Growth = 
+[Total Revenue] - [Previous Month Revenue]
+
+MoM Revenue Growth % = 
+DIVIDE([MoM Revenue Growth], [Previous Month Revenue], 0)
+
+
+// --- 6. DEDICATED CALENDAR TABLE (Optional DAX Calculated Table) ---
+// In Power BI: Modeling -> New Table -> Paste the following:
+
+Calendar = 
+ADDCOLUMNS(
+    CALENDAR(MIN(orders[order_date]), MAX(orders[order_date])),
+    "Year", YEAR([Date]),
+    "Month Number", MONTH([Date]),
+    "Month Name", FORMAT([Date], "MMM"),
+    "Year Month", FORMAT([Date], "YYYY-MM"),
+    "Quarter", "Q" & FORMAT([Date], "Q"),
+    "Day of Week", FORMAT([Date], "dddd")
+)
