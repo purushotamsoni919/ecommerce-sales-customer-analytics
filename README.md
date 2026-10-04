@@ -31,6 +31,25 @@ The project demonstrates a full data analytics workflow:
 
 ---
 
+## 🛠️ Technology Stack & Role Breakdown
+
+```mermaid
+flowchart TD
+    A[Raw E-Commerce Orders & Customers Data<br/>1,200 Orders • 200 Customers • 10 SKUs] --> B[1. MySQL 8.0 Relational Engine<br/>Star Schema DDL, Analytical Aggregations,<br/>RFM Segmentation & Delivery Analysis]
+    A --> C[2. Python ETL Pipeline<br/>Data Ingestion, Cleansing, Validation,<br/>EDA Visualizations with Seaborn & Matplotlib]
+    B --> D[3. Power BI & Web BI<br/>Live Interactive Dashboard on GitHub Pages,<br/>DAX Measures Library & Modern Soft-Blue Theme]
+    B --> E[4. Excel Executive Suite<br/>Automated OpenPyXL Multi-tab Workbook,<br/>KPI Cards & Regional Breakdown Reports]
+```
+
+| Tool | Focus Area | Key Deliverables |
+| :--- | :--- | :--- |
+| **Power BI & Web BI** | Executive Dashboards & BI | **Live Interactive Web Dashboard** (deployed via GitHub Pages), Custom Modern Theme (`Modern_Meta_Dashboard_Theme.json`), 15+ Core DAX Measures (`DAX_Measures.dax`), and 1-Click PBIDS connectors. |
+| **MySQL Server 8.0** | Relational Database & Queries | Relational Schema (`ecommerce_analytics`), Star Schema DDL, KPI queries, Monthly growth trends, and Customer RFM segmentation. |
+| **Python (Pandas / SQLAlchemy)** | Data Pipelines & EDA | Automated ETL pipeline (`etl_pipeline.py`), Seaborn/Matplotlib charts (`eda_analysis.py`), and data generator. |
+| **Microsoft Excel (OpenPyXL)** | Automated Multi-Tab Reporting | Executive Summary, Monthly Trend, Product Performance, and Regional Breakdown formatted workbooks. |
+
+---
+
 ## 📁 Repository Structure
 ```
 Data_Analytics_Project_Ecommerce/
