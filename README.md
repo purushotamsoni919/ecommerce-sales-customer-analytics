@@ -1,6 +1,21 @@
 # 🛍️ E-Commerce Sales & Customer Analytics Portfolio Project
 
+<p align="center">
+  <a href="https://purushotamsoni919.github.io/ecommerce-sales-customer-analytics/" target="_blank">
+    <img src="https://img.shields.io/badge/🚀_LIVE_INTERACTIVE_DASHBOARD-CLICK_HERE_TO_VIEW-1070EE?style=for-the-badge&logo=powerbi&logoColor=white" alt="Live Interactive Dashboard" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" />
+  <img src="https://img.shields.io/badge/Microsoft_Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=githubpages&logoColor=white" />
+</p>
+
 **Author**: Data Analytics Portfolio Project  
+**Live Interactive Dashboard**: [**Launch Web Dashboard ↗**](https://purushotamsoni919.github.io/ecommerce-sales-customer-analytics/)  
 **Tools Tested & Verified**: Python, MySQL Server 8.0, Excel, Power BI  
 
 ---
